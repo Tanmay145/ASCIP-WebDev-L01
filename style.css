@@ -69,3 +69,44 @@ nav ul a:hover{
     padding: 80px;
     
 }
+.dest img{
+    width: 395px;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-radius: 10px;
+    border-style: solid;
+}
+.Dests{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0px 120px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.dest img:hover{
+    border-style: groove;
+}
+.dest h4{
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+.dest button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+.dest button:hover{
+    color: black;
+    transform: scale(1.08);
+}
