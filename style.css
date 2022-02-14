@@ -110,3 +110,49 @@ nav ul a:hover{
     color: black;
     transform: scale(1.08);
 }
+#about{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#about img{
+    border-style: solid;
+   width: 45%;
+}
+#about img:hover{
+    border-style: groove;
+}
+#about h1{
+    font-size:xx-large;
+    padding-bottom: 50px;
+    
+}
+.abouthead{
+    padding: 150px;
+    background-color:ivory;
+    border-style: solid;
+    border-radius: 20px;
+    padding-top: 110px;
+    margin-top: 90px;
+}
+.text{
+    width: 50%;
+    float: right;
+    padding: 80px;
+    box-shadow: 10px 10px 8px;
+    background-color:rgb(201, 196, 196);
+    border-style: solid;
+    font-size: 20px;
+}
+.text:hover{
+    border-style: groove;  
+}
+.abouthead h1{
+    color: black;
+}
+.abouthead h2{
+    padding-top: 10px;
+    color:rgb(70, 4, 70);
+
+}
