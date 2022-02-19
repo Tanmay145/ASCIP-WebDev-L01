@@ -31,10 +31,7 @@ nav{
     justify-content: space-between;
     margin-bottom: 50px;
 }
-nav:hover{
-   /* color: white;
-    transition: 1.2s; */
-}
+
 nav ul{
     list-style-type: none;
     display: flex;
@@ -356,9 +353,7 @@ h2{
     margin: 7px 2px 0px;
     border-radius: 35%;
   }
-  .instagram img:hover{
-    color: red;     
-  }
+  
   .facebook img{
     height: 50px;
     padding: 5px;
